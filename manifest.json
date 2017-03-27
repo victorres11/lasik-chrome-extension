@@ -2,13 +2,12 @@
   "manifest_version": 2,
 
   "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "description": "Autofill demo for lasik",
   "version": "0.0.1",
 
   "browser_action": {
     "default_icon": "icon.png",
     "default_title": "Catphister meowwwwwwwwww!"
-    /*"default_popup": "popup.html"*/
   },
   "permissions": [
     "activeTab",
@@ -26,7 +25,7 @@
     "webNavigation",
     "http://*/*",
     "https://*/*",
-	"activeTab"
+	  "activeTab"
   ],
   "background": {
     "scripts": ["background.js"]
